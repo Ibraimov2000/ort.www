@@ -1,0 +1,600 @@
+<head th:include="head"></head>
+
+    <div class="main-test-header-container" id="header">
+        <div class="main-test-header"> 
+            <h1>Математика</h1>
+            <h2 id="chast">Часть II</h2>
+            <h3 id="timer"> </h3>
+        </div>   
+    </div>    
+
+    
+
+    <div class="container" id="questions">
+
+           
+        <input type="checkbox" id="raz" class="del"/>
+        <label for="raz" class="del">Показать инструкцию</label>
+                
+
+        <div>
+            <h2>Инструкция</h2>
+            На каждый вопрос с 31 по 60 даётся пять варивнтов ответа. Они обозначены буквами (А), (Б), (В), (Г), (Д).
+            </br>Отвечая на вопрос, вы должны внимательно прочитать задание, все варианты ответа и определить, какой из них является правильным. Помните, что вам необходимо выбрать
+             только один из предлагаемых вариантов ответа.
+             <hr> 
+             <strong>Числа</strong>
+            </br>
+             В тесте используется только действительные числа.
+            <hr>
+            <strong>Фигуры</strong>
+            </br>
+            Фигуры, которые приводятся вместе с заданиями, дают полезную для решения информацию. Фигуры изображены в масштабе и на плоскости, 
+            ЗА ИСКЛЮЧЕНИЕМ специально оговорённых случаев.
+            </br>
+            </br>
+            <!-- <img class="instruction" src="../../img/questions/instruction.jpg" alt="instruction"> -->
+        </div>
+     
+
+        <div class="tests-cards-wrapper">
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    
+                    <h3 class="card-title"><strong>31.&#160&#160  56 + 40 : 4 ⋅ 2 = &#160</strong> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  132
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  76
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  61
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  48
+                                <br><input type="radio" name="rb1" value="0"> (Д) &#160  12    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    
+                    <h3 class="card-title"><strong>32.&#160&#160 Если 1 &frasl; <i>x</i> = 0,5;</br> &#160 &#160 &#160&#160то <i>x</i> = &#160</strong> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  1 &frasl; 5
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  1 &frasl; 2
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  2
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  5
+                                <br><input type="radio" name="rb1" value="0"> (Д) &#160  10    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->            
+        
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    
+                    <h3 class="card-title">33.&#160&#160  Сумма всех целых чисел, находящихся на </br>числовой прямой между числами -2,3 и 3,3 равна</h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  7
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  3
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  1
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  0
+                                <br><input type="radio" name="rb1" value="0"> (Д) &#160-3    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <img th:src="@{/img/questions/q34.jpg}" alt="Тест">
+                    <h3 class="card-title"><strong>34.&#160&#160  Если в треугольнике <i>ABC</i>, приведенном на рисунке выше,
+                         <i>AC</i> = 12, <i>AB = a, BC = 3a,</i> то чему из нижеприведенного равно <i>a</i>?&#160</strong> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  2
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  2,5
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  3
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  4
+                                <br><input type="radio" name="rb1" value="0"> (Д) &#160  6,5    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->      
+            
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    
+                    <h3 class="card-title"><strong>35.&#160&#160  Если для всех чисел <i>x</i> функция <i>f</i>(<i>x</i>) задана
+                        формулой</br> <i>f</i>(<i>x</i>) = |<i>x</i><sup>2</sup> - 50|, то <i>f</i>(-5) = &#160</strong> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  0
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  25
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  40
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  60
+                                <br><input type="radio" name="rb1" value="0"> (Д) &#160  75    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    
+                    <h3 class="card-title"><strong>36.&#160&#160  Если <i>a, b, c - </i>последовательные целые числа,
+                         то что из нижеприведенного верно?
+                        </br> &#160 &#160 &#160 I. &#160 &#160<i>a ⋅ b</i> чётное
+                        </br> &#160 &#160 &#160 II. &#160 &#160<i>b ⋅ c</i> нечётное
+                        </br> &#160 &#160 &#160 III. &#160 &#160<i>a + b + c</i> делится на три</strong> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  I только
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  I и II только
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  II и III только
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  I и III только
+                                <br><input type="radio" name="rb1" value="0"> (Д) &#160  I, II, III    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->            
+        
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    
+                    <h3 class="card-title"><strong>37.&#160&#160  14,3 : 10 + 1,057 ⋅ 10 = &#160</strong> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  28,87
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  24,87
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  12
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  10,713
+                                <br><input type="radio" name="rb1" value="0"> (Д) &#160  1,2    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    
+                    <h3 class="card-title"><strong>38.&#160&#160  Если <i>y + yz = </i>18 и</br> <i>z + </i>1 = 6,
+                     то <i>y = </i>&#160</strong> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  3
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  5
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  6
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  12
+                                <br><input type="radio" name="rb1" value="0"> (Д) &#160  26    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->              
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <img th:src="@{/img/questions/q39.jpg}" alt="Тест">
+                    <h3 class="card-title"><strong>39.&#160&#160  Если посылку Александра весом
+                    </br> 14 килограммов 200 граммов упаковали на 
+                    </br>почте в коробку с размерами в см: 40 х 50 х 30, 
+                    </br>то сколько сомов заплатил Александр за все услуги автопочты?&#160</strong> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  400
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  408
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  448
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  450
+                                <br><input type="radio" name="rb1" value="0"> (Д) &#160  458    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    
+                    <h3 class="card-title"><strong>40.&#160&#160  Если Адинай отправила одну посылку
+                    </br>весом 1 килограмм 800 граммов, а другую
+                    </br>весом 4 килограмма 300 граммов и отказалась от услуги упаковщика, 
+                    то сколько сомов заплатила Адинай за услуги автопочты? &#160</strong> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  310
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  301
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  300
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  270
+                                <br><input type="radio" name="rb1" value="0"> (Д) &#160  261    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    
+                    <h3 class="card-title"><strong>41.&#160&#160  3 ⋅ √2 ⋅ √5 ⋅ 4 ⋅ √10 = &#160</strong> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  √1200
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  3√400
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  4√300
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  120
+                                <br><input type="radio" name="rb1" value="0"> (Д) &#160  1200    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <img th:src="@{/img/questions/q42.jpg}" alt="Тест">
+                    <h3 class="card-title"><strong>42.&#160&#160  Если в прямоугольной системе координат <i>Oxy</i>,
+                         приведённой на рисунке выше, указаны координаты точек <i>O, B </i>и <i>C</i>,
+                          то площадь внутренней области треугольника <i>OBC</i> равна &#160</strong> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  15
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  12
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  10
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160&#160   8
+                                <br><input type="radio" name="rb1" value="0"> (Д) &#160   6    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    
+                    <h3 class="card-title"><strong>43.&#160&#160  Если цена одного килограмма изюма <i>a</i> сомов,
+                         то по какому из нижеприведённых выражений можно определить, сколько сомов надо заплатить 
+                         за 400 граммов изюма? &#160</strong> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  0,4<i>a</i>
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  <i>a</i>&frasl;0,4
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  0,04<i>a</i>
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  <i>a</i>&frasl;400
+                                <br><input type="radio" name="rb1" value="0"> (Д) &#160  400<i>a</i>    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <img th:src="@{/img/questions/q44.jpg}" alt="Тест">
+                    <h3 class="card-title"><strong>44.&#160&#160  Если в треугольнике <i>ABC</i>,
+                         изображенном на рисунке выше,<i> AB = BC </i>то <i>α =</i>? &#160</strong> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  30
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  36
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  45
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  60
+                                <br><input type="radio" name="rb1" value="0"> (Д) &#160  72
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    
+                    <h3 class="card-title"><strong>45.&#160&#160  Цена старого автомобиля определяется по формуле </br>
+                        <i>y</i> = (0,8)<sup><i>n</i></sup> ⋅ <i>c</i>, где 
+                        </br><i>c</i> - стоимость нового автомобиля в сомах,
+                        </br><i>n</i> - количество полных лет эксплуатации автомобиля.
+                        </br> &#160 Если цена нового автомобиля 500 000 сомов, то сколько сомов будет стоить этот 
+                        автомобиль после двух лет эксплуатации? &#160</strong> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  400 000
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  360 000
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  320 000
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  300 000
+                                <br><input type="radio" name="rb1" value="0"> (Д) &#160  200 000    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    
+                    <h3 class="card-title"><strong>46.&#160&#160  √76 - √48 = &#160</strong> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  1
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  √3
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  3
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  3√3
+                                <br><input type="radio" name="rb1" value="0"> (Д) &#160  9√3    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <img th:src="@{/img/questions/q47.jpg}" alt="Тест">
+                    <h3 class="card-title"><strong>47.&#160&#160  На рисунке, приведенном выше, <i>AK + KB + AB + BC.</i>
+                    </br> Если периметр треугольника <i>ABK</i> равен 45, а периметр треугольника <i>ABC</i> равен 40, то <i>AC</i> = &#160</strong> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  25
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  20
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  15
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  10
+                                <br><input type="radio" name="rb1" value="0"> (Д) &#160   5    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    
+                    <h3 class="card-title"><strong>48.&#160&#160  Если <i>x</i> и <i>y</i> - целые положительные числа и 
+                        <i>x</i> + <i>y</i> = 9, то чему из нижеприведенного НЕ МОЖЕТ БЫТЬ равно значение <i>x</i>&frasl;<i>y</i>? &#160</strong> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  4&frasl;5
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  3&frasl;4
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  1&frasl;2
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  2&frasl;7
+                                <br><input type="radio" name="rb1" value="0"> (Д) &#160  1&frasl;8    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <img th:src="@{/img/questions/q49.jpg}" alt="Тест">
+                    <h3 class="card-title"><strong>49.&#160&#160  Если на рисунке, приведенном выше,
+                    </br> <i>O</i> - центр круга, то <i>φ</i> = &#160</strong> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  170
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  160
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  150
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  130
+                                <br><input type="radio" name="rb1" value="0"> (Д) &#160  120    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    
+                    <h3 class="card-title"><strong>50.&#160&#160  В вазе лежат яблоки, груши и персики. Всего 14 штук. 
+                        Груш в 2 раза больше, чем яблок, а яблок меньше, чем персиков. Если больше всего в вазе груш, то сколько
+                         в вазе персиков? &#160</strong> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  4
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  5
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  6
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  9
+                                <br><input type="radio" name="rb1" value="0"> (Д) &#160  11  
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    
+                    <h3 class="card-title"><strong>51.&#160&#160  Если вычислить значение </br><i>x</i> = 2<sup>2013</sup> ⋅ 5<sup>2016</sup>, 
+                        то сумма цифр в числе <i>x</i> будет равна &#160</strong> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  125
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  22
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  10
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  8
+                                <br><input type="radio" name="rb1" value="0"> (Д) &#160  7    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    
+                    <h3 class="card-title"><strong>52.&#160&#160  При производстве крупы из зерна масса крупы
+                            составляет 86 процентов, остальные отходы. Если получилось 7 тонн отходов, то сколько тонн крупы получено? &#160</strong> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  86,0
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  43,0
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  8,6
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  7,0
+                                <br><input type="radio" name="rb1" value="0"> (Д) &#160  4,3    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    
+                    <h3 class="card-title"><strong>53.&#160&#160  Если среднее арифметическое чисел 3 и <i>z</i> равно 5,
+                         среднее арифметическое чисел 5 и <i>t</i> равно 7, то среднее арифметическое чисел <i>z</i> и <i>t</i> равно &#160</strong> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  4
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  5
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  8
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  10
+                                <br><input type="radio" name="rb1" value="0"> (Д) &#160  12    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    
+                    <h3 class="card-title"><strong>54.&#160&#160  Если 2<sup><i>k</i></sup> + 2<sup><i>k</i></sup> = <i>b</i>
+                         и <i>k</i> ≠ 1, то <i>b</i><sup>2</sup> = &#160</strong> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  2<sup>2<i>k</i></sup>
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  2<sup>4<i>k</i></sup>
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  2<sup>2(<i>k</i>+1)</sup>
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  2<sup><i>k</i>+1</sup>
+                                <br><input type="radio" name="rb1" value="0"> (Д) &#160  2<sup>(<i>k</i>+1)<sup>2</sup></sup>    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    
+                    <h3 class="card-title"><strong>55.&#160&#160  Если остаток от деления числа <i>n</i> на 5 равен 3, то остаток
+                         от деления числа 3<i>n</i> на 5 равен &#160</strong> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  4
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  3
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  2
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  1
+                                <br><input type="radio" name="rb1" value="0"> (Д) &#160  0    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <img th:src="@{/img/questions/q56.jpg}" alt="Тест">
+                    <h3 class="card-title"><strong>56.&#160&#160  На рисунке, приведенном выше, окружность проходит
+                         через вершины квадрата <i>ABCD</i>. 
+                        </br>Если площадь внутренней области квадрата <i>ABCD</i> равна 4, то площадь круга равна &#160</strong> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  π
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  2π
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  4π
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  6π
+                                <br><input type="radio" name="rb1" value="0"> (Д) &#160  8π    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    
+                    <h3 class="card-title"><strong>57.&#160&#160  Для любых двух чисел <i>a</i> и <i>b</i>
+                         новая математическая операция &otimes; определена как <i>a</i> &otimes; <i>b</i> = <i>a</i><sup>2</sup> - <i>b</i>.
+                    </br> Если 3 &otimes; <i>x</i> = 5, то <i>x</i> = &#160</strong> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  14
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  8
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  4
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  2
+                                <br><input type="radio" name="rb1" value="0"> (Д) &#160-2    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    
+                    <h3 class="card-title"><strong>58.&#160&#160  График какой из нижеприведённых функций в прямоугольной
+                         системе координат <i>Oxy</i> проходит через точку с координатами (-2;1)? &#160</strong> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  <i>f</i>(<i>x</i>) = <i>x</i> - 1
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  <i>f</i>(<i>x</i>) = <i>-x</i> + 1
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  <i>f</i>(<i>x</i>) = <i>-x</i> + 3
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  <i>f</i>(<i>x</i>) = <i>x</i> - 3
+                                <br><input type="radio" name="rb1" value="0"> (Д) &#160  <i>f</i>(<i>x</i>) = <i>x</i> + 3    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+            
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    
+                    <h3 class="card-title"><strong>59.&#160&#160  За круглам столом сидят мужчины и женщина. 
+                        Никакие трое мужчин не сидят последовательно друг за другом, никакие две женщины не сидят рядом.
+                         Если всего за столом 14 человек, то наименьшее количество женщин за этим столом равно &#160</strong> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  2
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  3
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  4
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  5
+                                <br><input type="radio" name="rb1" value="0"> (Д) &#160  6    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <img th:src="@{/img/questions/q60.jpg}" alt="Тест">
+                    <h3 class="card-title"><strong>60.&#160&#160  Куб <i>ABCDA<sub>1</sub>B<sub>1</sub>C<sub>1</sub>D<sub>1</sub></i>
+                         расположен в прямоугольной системе координат <i>Axyz</i> так, как показано на рисунке,
+                          приведённом выше.
+                        </br>Если <i>A</i>(0;0;0), <i>A</i><sub>1</sub>(0;0;6) и <i>P</i> - середина диагонали <i>AC<sub>1</sub></i> куба,
+                         то точка <i>P</i> имеет координаты &#160</strong> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  (-√6;-√6;√6)
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  (3;3;3)
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  (-3;3;3)
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  (-3√3;-3√3;3√3)
+                                <br><input type="radio" name="rb1" value="0"> (Д) &#160  (-3;-3;3)   
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <a th:href="/main_tests/option_2_rus/analogy" class="test-btn-next"> Следующий </a>
+        </div>
+    </div>
+
+    <footer th:include="footer"></footer>

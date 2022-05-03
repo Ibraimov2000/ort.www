@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пробное онлайн тестирование!</title>
+    <link rel="shortcut icon"  th:href="@{/img/icons/favicon1.png}" type="image/png">
+    <link rel="stylesheet" type="text/css"  th:href="@{/css/main.css}">
+    <link rel="stylesheet" type="text/css"  th:href="@{/css/media.css}">
+    <link th:href="@{https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,600&display=swap}" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <article class="test">
+            <div class="main-test-header-container"> <h1 class="test-header">Тестке кош келиңиз!</h1></div>
+              
+            <div class="container">
+                  <div class="test-topic">
+                    <p>Тест жана аны менен иштөө</p>
+                   <!-- <img src="./img/Forest-travel/img-forest 1.jpg" alt="">-->
+                </div>
+
+                <div class="test-description">
+                    
+                    <p> Тест төмөнкүдөй бөлүмдөрдөн турат: (1) "Математика", (2) "Окшоштуктар жана сүйлөмдөрдү толуктоо", (3) "Эне тилинде текстти окуу жана түшүнүү", 
+                         (4) "Эне тилинин практикалык грамматикасы".</p>
+                       <p>Тест 3 саат 35 мүнөткө созулат. Биринчи бөлүмдөн кийин силерге 10 мүнөттүк тыныгуу берилет.</p>
+                        <p>Ар бир бөлүмдү аткарууга чектелген убакыт берилет. Ал убакыттын ичинде ошол гана бөлүмдүн үстүндө иштөө 
+                        керек. Эгерде тесттин бөлүмдөрүнүн бирөөнү мурда иштеп бүтсөңөр, анда бул бөлүмгө берилген убакыт бүткүчө күтүп отурушуңуз керек. 
+                        Атайын уруксат берилмейин тесттин кийинки бөлүмүнө киришүүгө <Strong>ТЫЮУ САЛЫНАТ</Strong>. 
+                        Эгерде силер тесттин бир бөлүмүндөгү суроолорго бөлүнгөн убакыттын ичинде жооп берип үлгүрбөй калсаңар да, баары бир кийинки бөлүмгө өтүшүңөр керек. 
+                        Кийинки бөлүмдүн суроолоруна жооп берип бүткөн соң, дагы кошумча убактыңар калып калса да, мурунку бүтпөй калган бөлүмгө кайра кайрылууга уруксат берилбейт. 
+                        Мисалы, "Окуу жана түшүнүү" бөлүмүндөгү тапшырмаларды аткарып бүткөн соң убактыңыз артып калса да, "Математика" бөлүмүнө кайра кайрылууга болбойт. 
+                        </p>
+                        <p>Ушинтип, баарыңарга тесттин ар бир бөлүмүндөгү тапшырмаларга жооп берүү үчүн бирдей чектелген убакыт берилет
+                        жана баарыңар башка абитуриенттер менен бирдей шартта болосуңар.</p>
+                        <p></br><Strong>Ийгилик каалайбыз!</Strong></p> 
+                    <!--<p>Адрес сайта: <a href="#">site.ngcom</a></p>-->
+                </div>
+                <a th:href="@{/main_tests/option_1_kyr/math}" class="test-btn-start" id="test-btn-start"> ТЕСТТИ БАШТОО </a>
+            </div>
+        </article>
+    </main>
+    <footer th:include="footer"></footer>
+    <script th:src="@{/js/timer.js}"></script>
+</body>
+</html>

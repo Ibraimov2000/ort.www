@@ -1,0 +1,837 @@
+<head th:include="head"></head>
+<body> 
+    <div class="main-test-header-container" id="header">
+        <div class="main-test-header"> 
+            <h1>Математика</h1>
+            <h2 id="chast">I Бөлүк</h2>
+            <h3 id="timer"> </h3>
+        </div>   
+    </div>    
+
+    
+
+    <div class="container" id="questions">
+
+           
+        <input type="checkbox" id="raz" class="del"/>
+        <label for="raz" class="del">Нускаманы көрсөтүү</label>
+    
+
+        <div>
+            <h2>Нускама</h2>
+                1ден 30га чейинки суроолор экиден чоңдукту камтып, алардын ар бири тик бурчтуу рамкага алынган:
+                </br>бири - <strong>А ТИЛКЕСИНДЕ</strong>, экинчиси - <strong>Б ТИЛКЕСИНДЕ</strong>. Сиз ошол эки чоңдукту салыштырып, төмөнкү жооптордун бирин тандашыңыз керек болот:
+                </br> &#160 &#160 &#160 &#160 &#160 &#160 (А), эгерде <strong>А ТИЛКЕСИНДЕГИ</strong> чоңдук чоңураак болсо;
+                </br> &#160 &#160 &#160 &#160 &#160 &#160 (Б), эгерде <strong>Б ТИЛКЕСИНДЕГИ</strong> чоңдук чоңураак болсо;
+                </br> &#160 &#160 &#160 &#160 &#160 &#160 (В), эгерде эки чоңдук тең болсо;
+                </br> &#160 &#160 &#160 &#160 &#160 &#160 (Г), эгерде бар болгон маалыматтын негизинде чоңдуктардын кайсынысы чоңураак болгонун
+                </br> &#160 &#160 &#160 &#160 &#160 &#160  &#160 &#160 &#160  &#160же алардын тең экенин аныктоо мүмкүн болбосо;
+                <hr>
+                Кээ бир суроолордо салыштырылып жаткан чоңдуктар жөнүндө кошумча маалымат берилет. Ал маалымат салыштырылуучу чоңдуктардын үстүндө 
+                жайгашып, рамкага АЛЫНГАН ЭМЕС. Тапшырманын эки тилкесинде тең бар болгон символ <strong>А ТИЛКЕСИНДЕГИ</strong> чоңдук үчүн да, <strong>Б ТИЛКЕСИНДЕГИ</strong>
+                чоңдук үчүн да бирдей мааниге ээ.
+                <hr> 
+                <strong>Сандар</strong>
+               </br>
+                Тестте анык сандар гана колдонулат.
+               <hr>
+               <strong>Фигуралар</strong>
+               </br>
+               Тапшырмалар менен кошо берилген фигуралар маселени чыгаруу үчүн пайдалуу маалыматты берет.
+                </br>Атайын алдын ала айтылган учурлардан БАШКА учурларда фигуралар масштабда жана тегиздикте тартылган.
+               </br>
+               </br>
+        <!-- <img class="instruction" src="../../img/questions/instruction.jpg" alt="instruction"> -->
+        </div>
+     
+
+    <div class="tests-cards-wrapper">
+               <!--Card-->
+               <div class="card">
+                <div class="card-link">
+                    <div class="columns">
+                        <u>А ТИЛКЕСИ</u>
+                        <u>Б ТИЛКЕСИ</u>
+                    </div>
+                    <div class="row">
+                        <div class="ramka_a">√8</div>
+                        <div class="ramka_a">4</div>
+                    </div>
+                    <h3 class="card-title">1.</h3>
+                            <form name="m1" action="" method="post">
+                            
+                                <br><input type="radio" name="rb1" value="0"> A
+                                <br><input type="radio" name="rb1" value="1"> Б
+                                <br><input type="radio" name="rb1" value="0"> В
+                                <br><input type="radio" name="rb1" value="0"> Г    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+    
+            <!--Card-->
+            <div class="card">
+            <div class="card-link">
+                <div class="columns">
+                    <u>А ТИЛКЕСИ</u>
+                    <u>Б ТИЛКЕСИ</u>
+                </div>
+                <div class="ques">
+                    <i>n</i> саны <i>m</i> санынан 4кө азыраак<br>
+                    <i>m</i> = 8
+                    <br><i>m</i> = 8 
+                </div>
+                <div class="row">
+                    <div class="ramka_a"><i>n</i></div>
+                    <div class="ramka_a">6</div>
+                </div>
+                <h3 class="card-title">2.</h3>
+                        <form name="m1" action="" method="post">
+                      
+                            <br><input type="radio" name="rb1" value="0"> A
+                            <br><input type="radio" name="rb1" value="1"> Б
+                            <br><input type="radio" name="rb1" value="0"> В
+                            <br><input type="radio" name="rb1" value="0"> Г    
+                        </form>  
+            </div>     
+            </div>
+            <!--// Card-->
+    
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <div class="columns">
+                        <u>А ТИЛКЕСИ</u>
+                        <u>Б ТИЛКЕСИ</u>
+                    </div>
+                    <div class="ques">
+                        7 бирдей ящикте 98 килограмм алма
+                    </div>
+                    <div class="row">
+                        <div class="ramka_a">Мындай 4 ящикте алмалардын массасы</div>
+                        <div class="ramka_a">50 килограмм</div>
+                    </div>
+                    <h3 class="card-title">3.</h3>
+                            <form name="m1" action="" method="post">
+                          
+                                <br><input type="radio" name="rb1" value="0"> A
+                                <br><input type="radio" name="rb1" value="1"> Б
+                                <br><input type="radio" name="rb1" value="0"> В
+                                <br><input type="radio" name="rb1" value="0"> Г    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+    
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <div class="columns">
+                        <u>А ТИЛКЕСИ</u>
+                        <u>Б ТИЛКЕСИ</u>
+                    </div>
+                    <div class="ques">
+                        |x| &frasl; x = 1
+                    </div>
+                    <div class="row">
+                        <div class="ramka_a">x</div>
+                        <div class="ramka_a">0</div>
+                    </div>
+                    <h3 class="card-title">4.</h3>
+                            <form name="m1" action="" method="post">
+                            
+                                <br><input type="radio" name="rb1" value="0"> A
+                                <br><input type="radio" name="rb1" value="1"> Б
+                                <br><input type="radio" name="rb1" value="0"> В
+                                <br><input type="radio" name="rb1" value="0"> Г    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+    
+    
+            <!--Card-->
+            <div class="card">
+                <a class="card-link">
+                    <div class="columns">
+                        <u>А ТИЛКЕСИ</u>
+                        <u>Б ТИЛКЕСИ</u>
+                    </div>
+                    <img class="card-img" th:src="@{/img/questions/q5.jpg}" alt="Тест">
+    
+                    <div class="row">
+                        <div class="ramka_a"><i>AD</i><sup>2</sup> + <i>DC</i><sup>2</sup></div>
+                        <div class="ramka_a"><i>AB</i><sup>2</sup> + <i>BC</i><sup>2</sup></div>
+                    </div>
+                    <h3 class="card-title">5.</h3>
+                            <form name="m1" action="" method="post">
+                            
+                                <br><input type="radio" name="rb5" value="0"> A
+                                <br><input type="radio" name="rb5" value="1"> Б
+                                <br><input type="radio" name="rb5" value="0"> В
+                                <br><input type="radio" name="rb5" value="0"> Г    
+                            </form>  
+                </a>     
+            </div>
+            <!--// Card-->
+    
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <div class="columns">
+                        <u>А ТИЛКЕСИ</u>
+                        <u>Б ТИЛКЕСИ</u>
+                    </div>
+                    <div class="ques">
+                        <i>x</i> &ne; 0 болгон ар кандай сан үчүн <i>f</i>(<i>x</i>) функциясы <i>f</i>(<i>x</i>) = 6&frasl;<i>x</i> - 2 формуласы менен берилген
+                    </div>
+                    <div class="row">
+                        <div class="ramka_a"><i>f</i>(<i>3</i>)</div>
+                        <div class="ramka_a"><i>f</i>(<i>4</i>)</div>
+                    </div>
+                    <h3 class="card-title">6.</h3>
+                            <form name="m1" action="" method="post">
+                            
+                                <br><input type="radio" name="rb1" value="0"> A
+                                <br><input type="radio" name="rb1" value="1"> Б
+                                <br><input type="radio" name="rb1" value="0"> В
+                                <br><input type="radio" name="rb1" value="0"> Г    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+    
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <div class="columns">
+                        <u>А ТИЛКЕСИ</u>
+                        <u>Б ТИЛКЕСИ</u>
+                    </div>
+                    <div class="ques">
+                        (<i>x</i> - 4)(<i>x</i> + 6) <i><</i> 0
+                    </div>
+                    <div class="row">
+                        <div class="ramka_a"><i>x</i></div>
+                        <div class="ramka_a">5</div>
+                    </div>
+                    <h3 class="card-title">7.</h3>
+                            <form name="m1" action="" method="post">
+                            
+                                <br><input type="radio" name="rb1" value="0"> A
+                                <br><input type="radio" name="rb1" value="1"> Б
+                                <br><input type="radio" name="rb1" value="0"> В
+                                <br><input type="radio" name="rb1" value="0"> Г    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+    
+            <!--Card-->
+            <div class="card">
+                <a class="card-link">
+                    <div class="columns">
+                        <u>А ТИЛКЕСИ</u>
+                        <u>Б ТИЛКЕСИ</u>
+                    </div>
+                        <img class="card-img" th:src="@{/img/questions/q8.jpg}" alt="Тест">
+                        <div class="row">
+                            <div class="ramka_a"><i>γ</i></div>
+                            <div class="ramka_a"><i>φ</i></div>
+                        </div>
+                    <h3 class="card-title">8.</h3>
+                            <form name="m1" action="" method="post">
+                            
+                                <br><input type="radio" name="rb8" value="0"> A
+                                <br><input type="radio" name="rb8" value="1"> Б
+                                <br><input type="radio" name="rb8" value="0"> В
+                                <br><input type="radio" name="rb8" value="0"> Г    
+                            </form>  
+                </a>     
+            </div>
+            <!--// Card-->
+    
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <div class="columns">
+                        <u>А ТИЛКЕСИ</u>
+                        <u>Б ТИЛКЕСИ</u>
+                    </div>
+                    <div class="row">
+                        <div class="ramka_a">1&frasl;5 - 1&frasl;6</div>
+                        <div class="ramka_a">1&frasl;30</div>
+                    </div>
+                    <h3 class="card-title">9.</h3>
+                            <form name="m1" action="" method="post">
+                            
+                                <br><input type="radio" name="rb1" value="0"> A
+                                <br><input type="radio" name="rb1" value="1"> Б
+                                <br><input type="radio" name="rb1" value="0"> В
+                                <br><input type="radio" name="rb1" value="0"> Г    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+    
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <div class="columns">
+                        <u>А ТИЛКЕСИ</u>
+                        <u>Б ТИЛКЕСИ</u>
+                    </div>
+                    <div class="ques">
+                        3 < <i>x</i> <i><</i> 7
+                        <br> 0 < <i>y</i> <i><</i> 1
+                    </div>
+                    <div class="row">
+                        <div class="ramka_a"><i>y</i>&frasl;<i>x</i></div>
+                        <div class="ramka_a"><i>x</i>&frasl;<i>y</i></div>
+                    </div>
+                    <h3 class="card-title">10.</h3>
+                            <form name="m1" action="" method="post">
+                            
+                                <br><input type="radio" name="rb1" value="0"> A
+                                <br><input type="radio" name="rb1" value="1"> Б
+                                <br><input type="radio" name="rb1" value="0"> В
+                                <br><input type="radio" name="rb1" value="0"> Г    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+    
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <div class="columns">
+                        <u>А ТИЛКЕСИ</u>
+                        <u>Б ТИЛКЕСИ</u>
+                    </div>
+                    <div class="ques">
+                        (<i>x</i> + 5)<sup>2</sup> + (<i>y</i> - 3)<sup>2</sup> = 0
+                    </div>
+                    <div class="row">
+                        <div class="ramka_a"><i>y</i> + <i>x</i></div>
+                        <div class="ramka_a">4</div>
+                    </div>
+                    <h3 class="card-title">11.</h3>
+                            <form name="m1" action="" method="post">
+                            
+                                <br><input type="radio" name="rb1" value="0"> A
+                                <br><input type="radio" name="rb1" value="1"> Б
+                                <br><input type="radio" name="rb1" value="0"> В
+                                <br><input type="radio" name="rb1" value="0"> Г    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+    
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <div class="columns">
+                        <u>А ТИЛКЕСИ</u>
+                        <u>Б ТИЛКЕСИ</u>
+                    </div>
+                    <div class="ques">
+                        Ар кандай <i>a</i> жана <i>b</i> оң сандары үчүн ↑ жаңы операциясы <i>a</i> ↑ <i>b</i> = <i>a<sup>b</sup></i> формуласынын жардамы менен аныкталган
+                    </div>
+                    <div class="row">
+                        <div class="ramka_a">3 ↑ 2</div>
+                        <div class="ramka_a">2 ↑ 3</div>
+                    </div>
+                    <h3 class="card-title">12.</h3>
+                            <form name="m1" action="" method="post">
+                            
+                                <br><input type="radio" name="rb1" value="0"> A
+                                <br><input type="radio" name="rb1" value="1"> Б
+                                <br><input type="radio" name="rb1" value="0"> В
+                                <br><input type="radio" name="rb1" value="0"> Г    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+    
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <div class="columns">
+                        <u>А ТИЛКЕСИ</u>
+                        <u>Б ТИЛКЕСИ</u>
+                    </div>
+                    <img class="card-img" th:src="@{/img/questions/q13.jpg}" alt="Тест">
+                    <div class="ques">
+                        <i>BC</i> жана <i>AD</i> түз сызыктары<br><i>AK</i> = 11, <i>BK</i> = 6 менен параллель
+                    </div>
+                    <div class="row">
+                        <div class="ramka_a"><i>ABK</i> үч бурчтугунун ички аймагынын аянты</div>
+                        <div class="ramka_a">32</div>
+                    </div>
+                    <h3 class="card-title">13.</h3>
+                            <form name="m1" action="" method="post">
+                          
+                                <br><input type="radio" name="rb13" value="0"> A
+                                <br><input type="radio" name="rb13" value="1"> Б
+                                <br><input type="radio" name="rb13" value="0"> В
+                                <br><input type="radio" name="rb13" value="0"> Г    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+    
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <div class="columns">
+                        <u>А ТИЛКЕСИ</u>
+                        <u>Б ТИЛКЕСИ</u>
+                    </div>
+                    <div class="row">
+                        <div class="ramka_a">(99<sup>2</sup> + 99) &frasl; 100</div>
+                        <div class="ramka_a">99</div>
+                    </div>
+                    <h3 class="card-title">14.</h3>
+                            <form name="m1" action="" method="post">
+                            
+                                <br><input type="radio" name="rb1" value="0"> A
+                                <br><input type="radio" name="rb1" value="1"> Б
+                                <br><input type="radio" name="rb1" value="0"> В
+                                <br><input type="radio" name="rb1" value="0"> Г    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+    
+            <!--Card-->
+            <div class="card">
+                <a class="card-link">
+                    <div class="columns">
+                        <u>А ТИЛКЕСИ</u>
+                        <u>Б ТИЛКЕСИ</u>
+                    </div>
+                    <img class="card-img" th:src="@{/img/questions/q15.jpg}" alt="Тест">
+                    <div class="ques">
+                        <i>xOy</i> - координаттардын тик бурчтуу системасы<br>
+                        <i>M</i> - айлананын борбору  
+                    </div>
+                    <div class="row">
+                        <div class="ramka_a"><i>c</i></div>
+                        <div class="ramka_a"><i>d</i></div>
+                    </div>
+                    <h3 class="card-title">15.</h3>
+                            <form name="m1" action="" method="post">
+                          
+                                <br><input type="radio" name="rb15" value="0"> A
+                                <br><input type="radio" name="rb15" value="1"> Б
+                                <br><input type="radio" name="rb15" value="0"> В
+                                <br><input type="radio" name="rb15" value="0"> Г    
+                            </form>  
+                </a>     
+            </div>
+            <!--// Card-->
+    
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <div class="columns">
+                        <u>А ТИЛКЕСИ</u>
+                        <u>Б ТИЛКЕСИ</u>
+                    </div>
+                    <div class="row">
+                        <div class="ramka_a">2&frasl;3</div>
+                        <div class="ramka_a">11&frasl;18</div>
+                    </div>
+                    <h3 class="card-title">16.</h3>
+                            <form name="m1" action="" method="post">
+                            
+                                <br><input type="radio" name="rb1" value="0"> A
+                                <br><input type="radio" name="rb1" value="1"> Б
+                                <br><input type="radio" name="rb1" value="0"> В
+                                <br><input type="radio" name="rb1" value="0"> Г    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+    
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <div class="columns">
+                        <u>А ТИЛКЕСИ</u>
+                        <u>Б ТИЛКЕСИ</u>
+                    </div>
+                    <div class="ques">
+                        2<i>m</i> > 2<i>n</i> <i>></i> 0
+                    </div>
+                    <div class="row">
+                        <div class="ramka_a">2&frasl;<i>n</i></div>
+                        <div class="ramka_a">2&frasl;<i>m</i></div>
+                    </div>
+                    <h3 class="card-title">17.</h3>
+                            <form name="m1" action="" method="post">
+                            
+                                <br><input type="radio" name="rb1" value="0"> A
+                                <br><input type="radio" name="rb1" value="1"> Б
+                                <br><input type="radio" name="rb1" value="0"> В
+                                <br><input type="radio" name="rb1" value="0"> Г    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+    
+            <!--Card-->
+            <div class="card">
+                <a class="card-link">
+                    <div class="columns">
+                        <u>А ТИЛКЕСИ</u>
+                        <u>Б ТИЛКЕСИ</u>
+                    </div>
+                    <img class="card-img" th:src="@{/img/questions/q18.jpg}" alt="Тест">
+                    <div class="ques">
+                        <i>ABCD</i> - тик бурчтук
+                    </div>
+                    <div class="row">
+                        <div class="ramka_a"><i>KBEN</i> тик бурчтугунун ички аймагынын аянты</div>
+                        <div class="ramka_a"><i>FNLD</i> тик бурчтугунун ички аймагынын аянты</div>
+                    </div>
+                    <h3 class="card-title">18.</h3>
+                            <form name="m1" action="" method="post">
+                            
+                                <br><input type="radio" name="rb18" value="0"> A
+                                <br><input type="radio" name="rb18" value="1"> Б
+                                <br><input type="radio" name="rb18" value="0"> В
+                                <br><input type="radio" name="rb18" value="0"> Г    
+                            </form>  
+                </a>     
+            </div>
+            <!--// Card-->        
+    
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <div class="columns">
+                        <u>А ТИЛКЕСИ</u>
+                        <u>Б ТИЛКЕСИ</u>
+                    </div>
+                    <div class="row">
+                        <div class="ramka_a">2<sup>20</sup> + 2<sup>10</sup></div>
+                        <div class="ramka_a">2<sup>30</sup></div>
+                    </div>
+                    <h3 class="card-title">19.</h3>
+                            <form name="m1" action="" method="post">
+                            
+                                <br><input type="radio" name="rb1" value="0"> A
+                                <br><input type="radio" name="rb1" value="1"> Б
+                                <br><input type="radio" name="rb1" value="0"> В
+                                <br><input type="radio" name="rb1" value="0"> Г    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+    
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <div class="columns">
+                        <u>А ТИЛКЕСИ</u>
+                        <u>Б ТИЛКЕСИ</u>
+                    </div>
+                    <div class="row">
+                        <div class="ramka_a"><i>z</i> санынан 25%</div>
+                        <div class="ramka_a">(1&frasl;4)<i>z</i></div>
+                    </div>
+                    <h3 class="card-title">20.</h3>
+                            <form name="m1" action="" method="post">
+                            
+                                <br><input type="radio" name="rb1" value="0"> A
+                                <br><input type="radio" name="rb1" value="1"> Б
+                                <br><input type="radio" name="rb1" value="0"> В
+                                <br><input type="radio" name="rb1" value="0"> Г    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+    
+    
+            <!--Card-->
+            <div class="card">
+                <a class="card-link">
+                    <div class="columns">
+                        <u>А ТИЛКЕСИ</u>
+                        <u>Б ТИЛКЕСИ</u>
+                    </div>
+                    <img class="card-img" th:src="@{/img/questions/q21.jpg}" alt="Тест">
+                    <div class="ques">
+                        <i>xOy</i> - координаттардын тик бурчтуу системасы<br>
+                        <i>f</i>(<i>x</i>) = <i>ax</i><sup>2</sup> + <i>bx</i> + <i>c</i>
+                    </div>
+                    <div class="row">
+                        <div class="ramka_a"><i>a⋅ с</i></div>
+                        <div class="ramka_a">0</div>
+                    </div>
+                    <h3 class="card-title">21.</h3>
+                            <form name="m1" action="" method="post">
+                            
+                                <br><input type="radio" name="rb21" value="0"> A
+                                <br><input type="radio" name="rb21" value="1"> Б
+                                <br><input type="radio" name="rb21" value="0"> В
+                                <br><input type="radio" name="rb21" value="0"> Г    
+                            </form>  
+                </a>     
+            </div>
+            <!--// Card-->
+    
+            <!--Card-->
+            <div class="card">
+                <a class="card-link">
+                    <div class="columns">
+                        <u>А ТИЛКЕСИ</u>
+                        <u>Б ТИЛКЕСИ</u>
+                    </div>
+                    <img class="card-img" th:src="@{/img/questions/q22.jpg}" alt="Тест">
+                    <div class="ques">
+                        <i>K</i> жана <i>N</i> чекиттери <i>AB</i> кесиндисин бирдей үч бөлүккө бөлөт
+                    </div>
+                    <div class="row">
+                        <div class="ramka_a"><i>x + y</i></div>
+                        <div class="ramka_a">4</div>
+                    </div>
+                    <h3 class="card-title">22.</h3>
+                            <form name="m1" action="" method="post">
+                            
+                                <br><input type="radio" name="rb22" value="0"> A
+                                <br><input type="radio" name="rb22" value="1"> Б
+                                <br><input type="radio" name="rb22" value="0"> В
+                                <br><input type="radio" name="rb22" value="0"> Г    
+                            </form>  
+                </a>     
+            </div>
+            <!--// Card-->         
+    
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <div class="columns">
+                        <u>А ТИЛКЕСИ</u>
+                        <u>Б ТИЛКЕСИ</u>
+                    </div>
+                    <div class="row">
+                        <div class="ramka_a">2,25 : 0,45</div>
+                        <div class="ramka_a">225 : 45</div>
+                    </div>
+                    <h3 class="card-title">23.</h3>
+                            <form name="m1" action="" method="post">
+                            
+                                <br><input type="radio" name="rb1" value="0"> A
+                                <br><input type="radio" name="rb1" value="1"> Б
+                                <br><input type="radio" name="rb1" value="0"> В
+                                <br><input type="radio" name="rb1" value="0"> Г    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+    
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <div class="columns">
+                        <u>А ТИЛКЕСИ</u>
+                        <u>Б ТИЛКЕСИ</u>
+                    </div>
+                    <div class="row">
+                        <div class="ramka_a">5<sup><i>m</i></sup></div>
+                        <div class="ramka_a">7<sup><i>m</i></sup></div>
+                    </div>
+                    <h3 class="card-title">24.</h3>
+                            <form name="m1" action="" method="post">
+                            
+                                <br><input type="radio" name="rb1" value="0"> A
+                                <br><input type="radio" name="rb1" value="1"> Б
+                                <br><input type="radio" name="rb1" value="0"> В
+                                <br><input type="radio" name="rb1" value="0"> Г    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+    
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <div class="columns">
+                        <u>А ТИЛКЕСИ</u>
+                        <u>Б ТИЛКЕСИ</u>
+                    </div>
+                    <div class="ques">
+                        Китептин баасы дептердин баасынан 100 эсе көбүрөөк
+                    </div>
+                    <div class="row">
+                        <div class="ramka_a">1 китептин жана 99 дептердин орточо арифметикалык баалары</div>
+                        <div class="ramka_a">2 китептин жана 198 дептердин орточо арифметикалык баалары</div>
+                    </div>
+                    <h3 class="card-title">25.</h3>
+                            <form name="m1" action="" method="post">
+                            
+                                <br><input type="radio" name="rb1" value="0"> A
+                                <br><input type="radio" name="rb1" value="1"> Б
+                                <br><input type="radio" name="rb1" value="0"> В
+                                <br><input type="radio" name="rb1" value="0"> Г    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+    
+            <!--Card-->
+            <div class="card">
+                <a class="card-link">
+                    <div class="columns">
+                        <u>А ТИЛКЕСИ</u>
+                        <u>Б ТИЛКЕСИ</u>
+                    </div>
+                    <img class="card-img" th:src="@{/img/questions/q26.jpg}" alt="Тест">
+                    <div class="ques">
+                        <i>ABCD</i> - квадрат, <i>AB</i> = 10<br>
+                        <i>A, B, C, D</i> - айланалардын борборлору
+                    </div>
+                    <div class="row">
+                        <div class="ramka_a">Боёлгон фигуранын периметри</div>
+                        <div class="ramka_a">32</div>
+                    </div>
+                    <h3 class="card-title">26.</h3>
+                            <form name="m1" action="" method="post">
+                            
+                                <br><input type="radio" name="rb26" value="0"> A
+                                <br><input type="radio" name="rb26" value="1"> Б
+                                <br><input type="radio" name="rb26" value="0"> В
+                                <br><input type="radio" name="rb26" value="0"> Г    
+                            </form>  
+                </a>     
+            </div>
+            <!--// Card-->  
+            
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <div class="columns">
+                        <u>А ТИЛКЕСИ</u>
+                        <u>Б ТИЛКЕСИ</u>
+                    </div>
+                    <div class="row">
+                        <div class="ramka_a">0,11<sup>10</sup></div>
+                        <div class="ramka_a">1,1</div>
+                    </div>
+                    <h3 class="card-title">27.</h3>
+                            <form name="m1" action="" method="post">
+                            
+                                <br><input type="radio" name="rb1" value="0"> A
+                                <br><input type="radio" name="rb1" value="1"> Б
+                                <br><input type="radio" name="rb1" value="0"> В
+                                <br><input type="radio" name="rb1" value="0"> Г    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+    
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <div class="columns">
+                        <u>А ТИЛКЕСИ</u>
+                        <u>Б ТИЛКЕСИ</u>
+                    </div>
+                    <div class="row">
+                        <div class="ramka_a">√(30 - 1) + 1</div>
+                        <div class="ramka_a">√(30 + 1) - 1</div>
+                    </div>
+                    <h3 class="card-title">28.</h3>
+                            <form name="m1" action="" method="post">
+                            
+                                <br><input type="radio" name="rb1" value="0"> A
+                                <br><input type="radio" name="rb1" value="1"> Б
+                                <br><input type="radio" name="rb1" value="0"> В
+                                <br><input type="radio" name="rb1" value="0"> Г    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->       
+    
+            <!--Card-->
+            <div class="card">
+                <a class="card-link">
+                    <div class="columns">
+                        <u>А ТИЛКЕСИ</u>
+                        <u>Б ТИЛКЕСИ</u>
+                    </div>
+                    <img class="card-img" th:src="@{/img/questions/q29.jpg}" alt="Тест">
+                    <div class="ques">
+                        <i>M</i> - цилиндрдин ортосун түзүүчү сызык<br>
+                        <i>V</i> - цилиндрдин көлөмү<br>
+                        <i>V</i><sub>1</sub> - цилиндрдин штрихтелген бөлүгүнүн көлөмүнүн
+                    </div>
+                    <div class="row">
+                        <div class="ramka_a"><i>V</i><sub>1</sub> &frasl; <i>V</i></div>
+                        <div class="ramka_a">1&frasl;3</div>
+                    </div>
+                    <h3 class="card-title">29.</h3>
+                            <form name="m1" action="" method="post">
+                            
+                                <br><input type="radio" name="rb29" value="0"> A
+                                <br><input type="radio" name="rb29" value="1"> Б
+                                <br><input type="radio" name="rb29" value="0"> В
+                                <br><input type="radio" name="rb29" value="0"> Г    
+                            </form>  
+                </a>     
+            </div>
+            <!--// Card-->
+    
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <div class="columns">
+                        <u>А ТИЛКЕСИ</u>
+                        <u>Б ТИЛКЕСИ</u>
+                    </div>
+                    <div class="ques">
+                        <i>x<sub>n</sub></i> сан удаалаштыгынын ар бир мүчөсү<br>
+                        <i>n<sup>n</sup></i> санынын акыркы санына барабар
+                    </div>
+                    <div class="row">
+                        <div class="ramka_a"><i>x</i><sub>4</sub></div>
+                        <div class="ramka_a"><i>x</i><sub>6</sub></div>
+                    </div>
+                    <h3 class="card-title">30.</h3>
+                            <form name="m1" action="" method="post">
+                            
+                                <br><input type="radio" name="rb1" value="0"> A
+                                <br><input type="radio" name="rb1" value="1"> Б
+                                <br><input type="radio" name="rb1" value="0"> В
+                                <br><input type="radio" name="rb1" value="0"> Г    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->        
+      
+        <a th:href="@{/main_tests/option_1_kyr/math2}" class="test-btn-next"> Кийинки </a>
+    </div>
+            <form name="m5">
+                <input type="hidden" name="l1" value="0">
+                <input type="hidden" name="l2" value="4">
+                <input type="hidden" name="l3" value="7">
+                <input type="hidden" name="l4" value="10">
+            </form>
+
+            <form action="" name="H" method="post">
+                <input type="hidden" name="tDtxt1" value="Ваша оценка 2">
+                <input type="hidden" name="tDtxt2" value="Ваша оценка 3">
+                <input type="hidden" name="tDtxt3" value="Ваша оценка 4">
+                <input type="hidden" name="tDtxt4" value="Ваша оценка 5">
+            </form>
+
+            
+        </div>
+
+
+    <footer th:include="footer"></footer>
+        <script th:src="@{/js/timer.js}"></script>
+</body>
+</html>

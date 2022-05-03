@@ -1,0 +1,611 @@
+<head th:include="head"></head>
+<body> 
+    <div class="main-test-header-container" id="header">
+        <div class="main-test-header"> 
+            <h1>Математика</h1>
+            <h2 id="chast">Часть I</h2>
+            <h3 id="timer"> </h3>
+        </div>   
+    </div>    
+
+    
+
+    <div class="container" id="questions">
+
+           
+            <input type="checkbox" id="raz" class="del"/>
+            <label for="raz" class="del">Показать инструкцию</label>
+        
+
+            <div>
+                <h2>Инструкция</h2>
+                    Вопросы с 1 по 30 содержат две величины, каждая из которых заключена в прямоугольную рамку:
+                    </br>одна - в <strong>КОЛОНКЕ А</strong>, другая - в <strong>КОЛОНКЕ Б</strong>. Вам нужно сравнить эти две величины и выбрать ответ:
+                    </br> &#160 &#160 &#160 &#160 &#160 &#160 (А), если величина <strong>КОЛОНКЕ А</strong> больше;
+                    </br> &#160 &#160 &#160 &#160 &#160 &#160 (Б), если величина <strong>КОЛОНКЕ Б</strong> больше;
+                    </br> &#160 &#160 &#160 &#160 &#160 &#160 (В), если обе величины равны;
+                    </br> &#160 &#160 &#160 &#160 &#160 &#160 (Г), если по имеющейся информации невозможно определить, какая из этих величин больше,
+                    </br> &#160 &#160 &#160 &#160 &#160 &#160  &#160 &#160 &#160  &#160либо установить их равенство;
+                    <hr>
+                    В некоторых вопросах дается дополнительная информация о сравниваемых величинах. Она располагается
+                    над сравниваемыми величинами и НЕ ЗАКЛЮЧЕНА в рамки. Символ, присутствующий в обеих колонках задания,
+                    имеет одинаковое значение для величин в <strong>КОЛОНКЕ А</strong> и в <strong>КОЛОНКЕ Б</strong>.
+                    </br>
+                    </br>
+            <!-- <img class="instruction" src="../../img/questions/instruction.jpg" alt="instruction"> -->
+            </div>
+     
+
+    <div class="tests-cards-wrapper">
+               
+        <!--Card-->
+        <div class="card">
+            <div class="card-link">
+                <div class="columns">
+                    <u>КОЛОНКА А</u>
+                    <u>КОЛОНКА Б</u>
+                </div>
+                <div class="row">
+                    <div class="ramka_a">1,101</div>
+                    <div class="ramka_a">1,11</div>
+                </div>
+                <h3 class="card-title">1.</h3>
+                        <form name="m1" action="" method="post">
+                      
+                            <br><input type="radio" name="rb1" value="0"> A
+                            <br><input type="radio" name="rb1" value="1"> Б
+                            <br><input type="radio" name="rb1" value="0"> В
+                            <br><input type="radio" name="rb1" value="0"> Г    
+                        </form>  
+            </div>     
+        </div>
+        <!--// Card-->
+
+        <!--Card-->
+        <div class="card">
+            <div class="card-link">
+                <div class="columns">
+                    <u>КОЛОНКА А</u>
+                    <u>КОЛОНКА Б</u>
+                </div>
+                <div class="row">
+                    <div class="ramka_a">(-9) : (-3)</div>
+                    <div class="ramka_a">(-9) + (-3)</div>
+                </div>
+                <h3 class="card-title">2.</h3>
+                        <form name="m1" action="" method="post">
+                      
+                            <br><input type="radio" name="rb1" value="0"> A
+                            <br><input type="radio" name="rb1" value="1"> Б
+                            <br><input type="radio" name="rb1" value="0"> В
+                            <br><input type="radio" name="rb1" value="0"> Г    
+                        </form>  
+            </div>     
+        </div>
+        <!--// Card-->
+
+        <!--Card-->
+        <div class="card">
+            <div class="card-link">
+                <div class="columns">
+                    <u>КОЛОНКА А</u>
+                    <u>КОЛОНКА Б</u>
+                </div>
+                <div class="row">
+                    <div class="ramka_a">40 дюймов</div>
+                    <div class="ramka_a">101 сантиметр</div>
+                </div>
+                <h3 class="card-title">3.</h3>
+                        <form name="m1" action="" method="post">
+                      
+                            <br><input type="radio" name="rb1" value="0"> A
+                            <br><input type="radio" name="rb1" value="1"> Б
+                            <br><input type="radio" name="rb1" value="0"> В
+                            <br><input type="radio" name="rb1" value="0"> Г    
+                        </form>  
+            </div>     
+        </div>
+        <!--// Card-->
+
+        <!--Card-->
+        <div class="card">
+            <div class="card-link">
+                <div class="columns">
+                    <u>КОЛОНКА А</u>
+                    <u>КОЛОНКА Б</u>
+                </div>
+                <div class="row">
+                    <div class="ramka_a">119&frasl;120 </div>
+                    <div class="ramka_a">801&frasl;799</div>
+                </div>
+                <h3 class="card-title">4.</h3>
+                        <form name="m1" action="" method="post">
+                      
+                            <br><input type="radio" name="rb1" value="0"> A
+                            <br><input type="radio" name="rb1" value="1"> Б
+                            <br><input type="radio" name="rb1" value="0"> В
+                            <br><input type="radio" name="rb1" value="0"> Г    
+                        </form>  
+            </div>     
+        </div>
+        <!--// Card-->
+
+
+        <!--Card-->
+        <div class="card">
+            <div class="card-link">
+                <div class="columns">
+                    <u>КОЛОНКА А</u>
+                    <u>КОЛОНКА Б</u>
+                </div>
+                <div class="row">
+                    <div class="ramka_a">4&frasl;7 ⋅ 1,4</div>
+                    <div class="ramka_a">7&frasl;4 ⋅ 0,4</div>
+                </div>
+                <h3 class="card-title">6.</h3>
+                        <form name="m1" action="" method="post">
+                      
+                            <br><input type="radio" name="rb1" value="0"> A
+                            <br><input type="radio" name="rb1" value="1"> Б
+                            <br><input type="radio" name="rb1" value="0"> В
+                            <br><input type="radio" name="rb1" value="0"> Г    
+                        </form>  
+            </div>     
+        </div>
+        <!--// Card-->
+
+        <!--Card-->
+        <div class="card">
+            <div class="card-link">
+                <div class="columns">
+                    <u>КОЛОНКА А</u>
+                    <u>КОЛОНКА Б</u>
+                </div>
+                <div class="ques">
+                    <i>a</i>&#160 <&#160 0,&#160 <i>b</i>&#160 <&#160 0
+                </div>
+                <div class="row">
+                    <div class="ramka_a"><i>a<sup>3</sup>b<sup>4</sup></i></div>
+                    <div class="ramka_a">0</div>
+                </div>
+                <h3 class="card-title">7.</h3>
+                        <form name="m1" action="" method="post">
+                      
+                            <br><input type="radio" name="rb1" value="0"> A
+                            <br><input type="radio" name="rb1" value="1"> Б
+                            <br><input type="radio" name="rb1" value="0"> В
+                            <br><input type="radio" name="rb1" value="0"> Г    
+                        </form>  
+            </div>     
+        </div>
+        <!--// Card-->
+        
+        <!--Card-->
+        <div class="card">
+            <div class="card-link">
+                <div class="columns">
+                    <u>КОЛОНКА А</u>
+                    <u>КОЛОНКА Б</u>
+                </div>
+                <div class="row">
+                    <div class="ramka_a">2,25 - 3&frasl;2</div>
+                    <div class="ramka_a">1</div>
+                </div>
+                <h3 class="card-title">8.</h3>
+                        <form name="m1" action="" method="post">
+                      
+                            <br><input type="radio" name="rb1" value="0"> A
+                            <br><input type="radio" name="rb1" value="1"> Б
+                            <br><input type="radio" name="rb1" value="0"> В
+                            <br><input type="radio" name="rb1" value="0"> Г    
+                        </form>  
+            </div>     
+        </div>
+        <!--// Card-->
+
+        <!--Card-->
+        <div class="card">
+            <div class="card-link">
+                <div class="columns">
+                    <u>КОЛОНКА А</u>
+                    <u>КОЛОНКА Б</u>
+                </div>
+                <div class="ques">
+                    6<i><sup>n</sup></i> ⋅ 6<i><sup>4</sup></i> = 6<i><sup>12</sup></i>
+                </div>
+                <div class="row">
+                    <div class="ramka_a"><i>n</i></div>
+                    <div class="ramka_a">3</div>
+                </div>
+                <h3 class="card-title">10.</h3>
+                        <form name="m1" action="" method="post">
+                      
+                            <br><input type="radio" name="rb1" value="0"> A
+                            <br><input type="radio" name="rb1" value="1"> Б
+                            <br><input type="radio" name="rb1" value="0"> В
+                            <br><input type="radio" name="rb1" value="0"> Г    
+                        </form>  
+            </div>     
+        </div>
+        <!--// Card-->
+
+        <!--Card-->
+        <div class="card">
+            <div class="card-link">
+                <div class="columns">
+                    <u>КОЛОНКА А</u>
+                    <u>КОЛОНКА Б</u>
+                </div>
+                <div class="row">
+                    <div class="ramka_a">1,6 ⋅ √0,25</div>
+                    <div class="ramka_a">2,5 ⋅ √0,16</div>
+                </div>
+                <h3 class="card-title">11.</h3>
+                        <form name="m1" action="" method="post">
+                      
+                            <br><input type="radio" name="rb1" value="0"> A
+                            <br><input type="radio" name="rb1" value="1"> Б
+                            <br><input type="radio" name="rb1" value="0"> В
+                            <br><input type="radio" name="rb1" value="0"> Г    
+                        </form>  
+            </div>     
+        </div>
+        <!--// Card-->
+
+        <!--Card-->
+        <div class="card">
+            <div class="card-link">
+                <div class="columns">
+                    <u>КОЛОНКА А</u>
+                    <u>КОЛОНКА Б</u>
+                </div>
+                <div class="ques">
+                    5 - &#160 <i>t</i>&#160 <&#160 5 +&#160 <i>t</i>
+                </div>
+                <div class="row">
+                    <div class="ramka_a"><i>t</i></div>
+                    <div class="ramka_a">0</div>
+                </div>
+                <h3 class="card-title">12.</h3>
+                        <form name="m1" action="" method="post">
+                      
+                            <br><input type="radio" name="rb1" value="0"> A
+                            <br><input type="radio" name="rb1" value="1"> Б
+                            <br><input type="radio" name="rb1" value="0"> В
+                            <br><input type="radio" name="rb1" value="0"> Г    
+                        </form>  
+            </div>     
+        </div>
+        <!--// Card-->
+
+        <!--Card-->
+        <div class="card">
+            <div class="card-link">
+                <div class="columns">
+                    <u>КОЛОНКА А</u>
+                    <u>КОЛОНКА Б</u>
+                </div>
+                <div class="ques">
+                    3<i>x</i>&#160- 2⋅(3<i>x</i>&#160- 2) = -2
+                </div>
+                <div class="row">
+                    <div class="ramka_a">3<i>x</i></div>
+                    <div class="ramka_a">2</div>
+                </div>
+                <h3 class="card-title">13.</h3>
+                        <form name="m1" action="" method="post">
+                      
+                            <br><input type="radio" name="rb1" value="0"> A
+                            <br><input type="radio" name="rb1" value="1"> Б
+                            <br><input type="radio" name="rb1" value="0"> В
+                            <br><input type="radio" name="rb1" value="0"> Г    
+                        </form>  
+            </div>     
+        </div>
+        <!--// Card-->
+
+        <!--Card-->
+        <div class="card">
+            <div class="card-link">
+                <div class="columns">
+                    <u>КОЛОНКА А</u>
+                    <u>КОЛОНКА Б</u>
+                </div>
+                <div class="row">
+                    <div class="ramka_a">0,2√50</div>
+                    <div class="ramka_a">√10</div>
+                </div>
+                <h3 class="card-title">14.</h3>
+                        <form name="m1" action="" method="post">
+                      
+                            <br><input type="radio" name="rb1" value="0"> A
+                            <br><input type="radio" name="rb1" value="1"> Б
+                            <br><input type="radio" name="rb1" value="0"> В
+                            <br><input type="radio" name="rb1" value="0"> Г    
+                        </form>  
+            </div>     
+        </div>
+        <!--// Card-->
+
+        <!--Card-->
+        <div class="card">
+            <div class="card-link">
+                <div class="columns">
+                    <u>КОЛОНКА А</u>
+                    <u>КОЛОНКА Б</u>
+                </div>
+                <div class="ques">
+                    (<i>z</i>&#160+ 2) &frasl; (<i>z</i>&#160- 2) = 3
+                </div>
+                <div class="row">
+                    <div class="ramka_a">(<i>z</i> + 3) <i>/</i> (<i>z</i> - 3)</div>
+                    <div class="ramka_a">2</div>
+                </div>
+                <h3 class="card-title">16.</h3>
+                        <form name="m1" action="" method="post">
+                      
+                            <br><input type="radio" name="rb1" value="0"> A
+                            <br><input type="radio" name="rb1" value="1"> Б
+                            <br><input type="radio" name="rb1" value="0"> В
+                            <br><input type="radio" name="rb1" value="0"> Г    
+                        </form>  
+            </div>     
+        </div>
+        <!--// Card-->
+
+        <!--Card-->
+        <div class="card">
+            <div class="card-link">
+                <div class="columns">
+                    <u>КОЛОНКА А</u>
+                    <u>КОЛОНКА Б</u>
+                </div>
+                <div class="row">
+                    <div class="ramka_a">0,1<sup>10</sup> ⋅ 5<sup>20</sup></div>
+                    <div class="ramka_a">1</div>
+                </div>
+                <h3 class="card-title">17.</h3>
+                        <form name="m1" action="" method="post">
+                      
+                            <br><input type="radio" name="rb1" value="0"> A
+                            <br><input type="radio" name="rb1" value="1"> Б
+                            <br><input type="radio" name="rb1" value="0"> В
+                            <br><input type="radio" name="rb1" value="0"> Г    
+                        </form>  
+            </div>     
+        </div>
+        <!--// Card-->
+
+        <!--Card-->
+        <div class="card">
+            <div class="card-link">
+                <div class="columns">
+                    <u>КОЛОНКА А</u>
+                    <u>КОЛОНКА Б</u>
+                </div>
+                <div class="ques">
+                    <i>x<sup>2</sup></i> + 1 = 9
+                </div>
+                <div class="row">
+                    <div class="ramka_a">|<i>x</i>| + 1</div>
+                    <div class="ramka_a">3</div>
+                </div>
+                <h3 class="card-title">19.</h3>
+                        <form name="m1" action="" method="post">
+                      
+                            <br><input type="radio" name="rb1" value="0"> A
+                            <br><input type="radio" name="rb1" value="1"> Б
+                            <br><input type="radio" name="rb1" value="0"> В
+                            <br><input type="radio" name="rb1" value="0"> Г    
+                        </form>  
+            </div>     
+        </div>
+        <!--// Card-->
+
+        <!--Card-->
+        <div class="card">
+            <div class="card-link">
+                <div class="columns">
+                    <u>КОЛОНКА А</u>
+                    <u>КОЛОНКА Б</u>
+                </div>
+                <div class="ques">
+                    <i>n</i> &#160- целое положительное число
+                </div>
+                <div class="row">
+                    <div class="ramka_a">(-1)<sup><i>n</i>-1</sup></div>
+                    <div class="ramka_a">(-1)<sup><i>n</i>+1</sup></div>
+                </div>
+                <h3 class="card-title">20.</h3>
+                        <form name="m1" action="" method="post">
+                      
+                            <br><input type="radio" name="rb1" value="0"> A
+                            <br><input type="radio" name="rb1" value="1"> Б
+                            <br><input type="radio" name="rb1" value="0"> В
+                            <br><input type="radio" name="rb1" value="0"> Г    
+                        </form>  
+            </div>     
+        </div>
+        <!--// Card-->
+
+        <!--Card-->
+        <div class="card">
+            <div class="card-link">
+                <div class="columns">
+                    <u>КОЛОНКА А</u>
+                    <u>КОЛОНКА Б</u>
+                </div>
+                <div class="ques">
+                    Стоимость доставки товара из магазина домой составляет 6 процентов от стоимости заказа. Айнура сделала заказ на сумму 1250 сомов.
+                </div>
+                <div class="row">
+                    <div class="ramka_a">Стоимость доставки в сомах</div>
+                    <div class="ramka_a">75</div>
+                </div>
+                <h3 class="card-title">22.</h3>
+                        <form name="m1" action="" method="post">
+                      
+                            <br><input type="radio" name="rb1" value="0"> A
+                            <br><input type="radio" name="rb1" value="1"> Б
+                            <br><input type="radio" name="rb1" value="0"> В
+                            <br><input type="radio" name="rb1" value="0"> Г    
+                        </form>  
+            </div>     
+        </div>
+        <!--// Card-->
+
+        <!--Card-->
+        <div class="card">
+            <div class="card-link">
+                <div class="columns">
+                    <u>КОЛОНКА А</u>
+                    <u>КОЛОНКА Б</u>
+                </div>
+                <div class="row">
+                    <div class="ramka_a">Среднее арифметическое всех целых чисел от -2 до 4 включительно</div>
+                    <div class="ramka_a">1</div>
+                </div>
+                <h3 class="card-title">23.</h3>
+                        <form name="m1" action="" method="post">
+                      
+                            <br><input type="radio" name="rb1" value="0"> A
+                            <br><input type="radio" name="rb1" value="1"> Б
+                            <br><input type="radio" name="rb1" value="0"> В
+                            <br><input type="radio" name="rb1" value="0"> Г    
+                        </form>  
+            </div>     
+        </div>
+        <!--// Card-->
+
+        <!--Card-->
+        <div class="card">
+            <div class="card-link">
+                <div class="columns">
+                    <u>КОЛОНКА А</u>
+                    <u>КОЛОНКА Б</u>
+                </div>
+                <div class="ques">
+                    <i>f</i>&#160(<i>x</i>) = 2<i>x<sup>2</sup></i>, &#160<i>a &ne;</i>&nbsp;0
+                </div>
+                <div class="row">
+                    <div class="ramka_a"><i>f</i> (<i>a<sup>2</sup></i>)</div>
+                    <div class="ramka_a"><i>f<sup> 2</sup></i>(<i>a</i>)</div>
+                </div>
+                <h3 class="card-title">25.</h3>
+                        <form name="m1" action="" method="post">
+                      
+                            <br><input type="radio" name="rb1" value="0"> A
+                            <br><input type="radio" name="rb1" value="1"> Б
+                            <br><input type="radio" name="rb1" value="0"> В
+                            <br><input type="radio" name="rb1" value="0"> Г    
+                        </form>  
+            </div>     
+        </div>
+        <!--// Card-->
+
+        <!--Card-->
+        <div class="card">
+            <div class="card-link">
+                <div class="columns">
+                    <u>КОЛОНКА А</u>
+                    <u>КОЛОНКА Б</u>
+                </div>
+                <div class="ques">
+                    Новое математическое действие &otimes; определяется с помощью формулы 
+                </br><i>x</i> &otimes; <i>y</i> = <i>y</i> + <i>x<sup>2</sup></i>
+                </div>
+                <div class="row">
+                    <div class="ramka_a">(-1) &otimes; 1</div>
+                    <div class="ramka_a">1 &otimes; (-1)</div>
+                </div>
+                <h3 class="card-title">27.</h3>
+                        <form name="m1" action="" method="post">
+                      
+                            <br><input type="radio" name="rb1" value="0"> A
+                            <br><input type="radio" name="rb1" value="1"> Б
+                            <br><input type="radio" name="rb1" value="0"> В
+                            <br><input type="radio" name="rb1" value="0"> Г    
+                        </form>  
+            </div>     
+        </div>
+        <!--// Card-->
+
+        <!--Card-->
+        <div class="card">
+            <div class="card-link">
+                <div class="columns">
+                    <u>КОЛОНКА А</u>
+                    <u>КОЛОНКА Б</u>
+                </div>
+                <div class="ques">
+                    <i>p</i>⋅(<i>p + r</i>) = <i>r</i>⋅(<i>p - r</i>)
+                </div>
+                <div class="row">
+                    <div class="ramka_a"><i>p</i></div>
+                    <div class="ramka_a"><i>r</i></div>
+                </div>
+                <h3 class="card-title">29.</h3>
+                        <form name="m1" action="" method="post">
+                      
+                            <br><input type="radio" name="rb1" value="0"> A
+                            <br><input type="radio" name="rb1" value="1"> Б
+                            <br><input type="radio" name="rb1" value="0"> В
+                            <br><input type="radio" name="rb1" value="0"> Г    
+                        </form>  
+            </div>     
+        </div>
+        <!--// Card-->
+
+        <!--Card-->
+        <div class="card">
+            <div class="card-link">
+                <div class="columns">
+                    <u>КОЛОНКА А</u>
+                    <u>КОЛОНКА Б</u>
+                </div>
+                <div class="ques">
+                    Произведение всех целых чисел от 1 до <i>n</i> включительно обозначается <i>n</i>!
+                    </br><i>n</i>! = 1⋅2⋅3⋅...⋅(<i>n</i> - 1)⋅<i>n</i>
+                </div>
+                <div class="row">
+                    <div class="ramka_a">(4! - 3!)/3</div>
+                    <div class="ramka_a">3</div>
+                </div>
+                <h3 class="card-title">30.</h3>
+                        <form name="m1" action="" method="post">
+                      
+                            <br><input type="radio" name="rb1" value="0"> A
+                            <br><input type="radio" name="rb1" value="1"> Б
+                            <br><input type="radio" name="rb1" value="0"> В
+                            <br><input type="radio" name="rb1" value="0"> Г    
+                        </form>  
+            </div>     
+        </div>
+        <!--// Card-->
+
+        <a href="./math2.html" class="test-btn-next"> Следующий </a>
+
+        </div>     
+    </div>
+
+
+
+            <form name="m5">
+                <input type="hidden" name="l1" value="0">
+                <input type="hidden" name="l2" value="4">
+                <input type="hidden" name="l3" value="7">
+                <input type="hidden" name="l4" value="10">
+            </form>
+
+            <form action="" name="H" method="post">
+                <input type="hidden" name="tDtxt1" value="Ваша оценка 2">
+                <input type="hidden" name="tDtxt2" value="Ваша оценка 3">
+                <input type="hidden" name="tDtxt3" value="Ваша оценка 4">
+                <input type="hidden" name="tDtxt4" value="Ваша оценка 5">
+            </form>
+
+
+        <footer th:include="footer"></footer>
+        <script src="../../js/timer.js"></script>
+</body>
+</html>

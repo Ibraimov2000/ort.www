@@ -1,0 +1,697 @@
+<head th:include="head"></head>
+<body> 
+    <div class="main-test-header-container" id="header">
+        <div class="main-test-header"> 
+            <h1>Математика</h1>
+            <h3 id="timer"> </h3>
+        </div>   
+    </div>    
+
+    
+
+    <div class="container" id="questions">
+
+           
+        <input type="checkbox" id="raz" class="del"/>
+        <label for="raz" class="del">Показать инструкцию</label>
+                
+
+        <div>
+            <h2>Инструкция</h2>
+            На каждый вопрос с 1 по 40 даётся четыре варивнта ответа. Они обозначены буквами (А), (Б), (В), (Г).
+        </br>Помните, что только один из предложенных вариантов ответа является правильным.    
+        </br>Отвечая на вопрос, Вы должны внимательно прочитать задание, все варианты ответа и выбрать правильный.
+             <hr> 
+             <strong>Числа</strong>
+            </br>
+             В тесте используется только действительные числа.
+            <hr>
+            <strong>Фигуры</strong>
+            </br>
+            Фигуры, которые приводятся вместе с заданиями, дают полезную для решения информацию. Фигуры изображены в масштабе и на плоскости, 
+            ЗА ИСКЛЮЧЕНИЕМ специально оговорённых случаев.
+            </br>
+            </br>
+            <!-- <img class="instruction" src="../../img/questions/instruction.jpg" alt="instruction"> -->
+        </div>
+     
+
+        <div class="tests-cards-wrapper">
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    
+                    <h3 class="card-title"><strong>1.&#160&#160  5,7 &frasl; 0,001 = &#160</strong> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  0,057
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  57
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  570
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  5700  
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    
+                    <h3 class="card-title"><strong>2.&#160&#160 (2<sup>-5</sup>)<sup>-3</sup> : (2<sup>-3</sup>)<sup>-5</sup> = &#160</strong> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  2
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  1
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  1&frasl;8
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  1&frasl;32
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->            
+        
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    
+                    <h3 class="card-title">3.&#160&#160  Если <i>tgx</i> = -8&frasl;3, то <i>ctgx = </i></h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  8&frasl;3
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  3&frasl;8
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  - 3&frasl;8
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  - 8&frasl;3 
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <h3 class="card-title">4.&#160&#160  Если <i>p</i>% от 20 равно 60, то чему равно 60% от <i>p</i>? </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  100
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  120
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  180
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  200    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->      
+            
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    
+                    <h3 class="card-title">5.&#160&#160  В зале кинотеатра одинаковые ряды по 40 мест в каждом. Если все места
+                         пронумерованы, начиная с первого ряда, то в каком ряду находится место с номером 571? </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  В 6 ряду
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  В 13 ряду
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  В 14 ряду
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  В 15 ряду
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    
+                    <h3 class="card-title">6.&#160&#160  Если |<i>x</i> + 12| = |<i>x</i>|, то <i>x</i> =  </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  6
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  0
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  -6
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  -12  
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->            
+        
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    
+                    <h3 class="card-title">7.&#160&#160  Если 1 < 0,2<i>a</i> < 2, то что из нижеприведённого верно? &#160</h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  0,2 < <i>a</i> < 0,4
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  0,8 < <i>a</i> < 1,8
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  2 < <i>a</i> < 4
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  5 < <i>a</i> < 10
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <img class="card-img" th:src="@{/img/math_rus/q8.jpg}" alt="Тест">
+                    <h3 class="card-title">8.&#160&#160 Если на рисунке, приведённом выше, <i>ABCD</i> - параллелограмм, то <i>y</i> &frasl; <i>x =</i> &#160</h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  4
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  2
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  1&frasl;2
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  1&frasl;4   
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->              
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link"> 
+                    <h3 class="card-title">9.&#160&#160  Наибольший корень уравнения
+                        <br> (<i>x<sup>3</sup></i> + <i>x<sup>2</sup></i> - 6<i>x</i>) &frasl; (<i>x<sup>2</sup></i> - 4<i>x</i> + 4) = 0 равен </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  2
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  0
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  -2
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  -3  
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <img class="card-img" th:src="@{/img/math_rus/q10.jpg}" alt="Тест">
+                    <h3 class="card-title"><strong>10.&#160&#160  Если числа <i>a</i> и <i>b</i> расположены на числовой прямой, как показано
+                         на рисунке, приведённом выше, то что из приведённого верно?
+                        </br> &#160 &#160 &#160 I. &#160 &#160<i>a ⋅ b</i> < 0
+                        </br> &#160 &#160 &#160 II. &#160 &#160<i>a<sup>2</sup> ⋅ b</i> < 0
+                        </br> &#160 &#160 &#160 III. &#160 &#160<i>a - b</i> < 0</strong> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  I, II и III 
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  I и III только
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  II и III только
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  II только    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card--> 
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link"> 
+                    <h3 class="card-title">11.&#160&#160  Наименьшее целое число, удовлетворяющее неравенству 
+                        <br>  5&frasl;<i>x</i> > 1, равно </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  5
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  4
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  1
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  0  
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link"> 
+                    <h3 class="card-title">12.&#160&#160  Если площадь внутренней области квадрата равна S, то чему равна длина диагонали этого 
+                        квадрата? </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  √(S &frasl; 2)
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  √(S &frasl; 2)
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  √(2S)
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  2√S  
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link"> 
+                    <h3 class="card-title">13.&#160&#160  Если функция <i>f</i>(<i>x</i>) определена для всех чисел
+                     <i>x</i> с помощью формулы <i>f</i>(<i>x</i>) = 3<i>x</i> + 2, то <i>f</i>(2<i>x</i> + 1) = </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  3<i>f</i>(<i>x</i>) + 2
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  3<i>f</i>(<i>x</i>)
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  2<i>f</i>(<i>x</i>)
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  2<i>f</i>(<i>x</i>) + 1
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link"> 
+                    <h3 class="card-title">14.&#160&#160  Если log<sub>7</sub>(8<i>x</i> + 2) = 1, то 8<i>x</i> - 2 =  </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  5
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  3
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  2
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  1
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link"> 
+                    <h3 class="card-title">15.&#160&#160  sin<sup>2</sup><i>x</i> + cos<sup>2</sup><i>x</i> - 2 =  </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  -3
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  -2
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  -1
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  0
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link"> 
+                    <h3 class="card-title">16.&#160&#160  (√1,69 - √1,44) &frasl; √0,25 </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  1 &frasl; 50
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  1 &frasl; 40
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  1&frasl;5
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  1  
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link"> 
+                    <h3 class="card-title">Вопросы <u>17</u> и <u>18</u> относятся к приведённой ниже информации.
+                    </br></br>Зная рост отца <i>P<sub>o</sub></i> и рост матери <i>P<sub>м</sub></i>, можно с точностью ±3 см рассчитать, каким будет 
+                    рост ребёнка, когда он вырастет.
+                    </br>Формула для мальчиков:&#160 (<i>P<sub>o</sub></i> + 1,1 ⋅ <i>P<sub>м</sub></i>) : 2
+                    </br>Формула для девочек: &#160 &#160 &#160 (0,95 ⋅ <i>P<sub>o</sub></i> + <i>P<sub>м</sub></i>) : 2
+                    </br></br>17.&#160&#160  (√1,69 - √1,44) &frasl; √0,25 </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  190 см
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  188 см
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  179 см
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  172 см
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link"> 
+                    <h3 class="card-title">18.&#160&#160 Если рост молодой женщины 167 см, а рост её отца 180 см, то что из нижеприведённого
+                         точнее всего показывает, каков рост её матери?  </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  163 см
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  167 см
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  171 см
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  175 см
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link"> 
+                    <h3 class="card-title">19.&#160&#160 <i>x, y, z - </i>целые положительные числа.
+                        <br>Если <i>x + y + z </i>= 40, <i>z - x</i> = 30, <i>x < y < z</i>, то наименьшее возможное значение числа <i>y</i> равно </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  3
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  4
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  6
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  8
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link"> 
+                    <img class="card-img" th:src="@{/img/math_rus/q20.jpg}" alt="Тест">
+                    <h3 class="card-title">20.&#160&#160 Если в прямоугольной системе координат <i>xOy</i>, приведённой на рисунке выше, окружность задана
+                     уравнением<br> (<i>x</i> - 1)<sup>2</sup> + (<i>y</i> - 2)<sup>2</sup> = 10, то длина отрезка <i>AB</i> равна </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  13
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  11
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  8
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  6
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link"> 
+                    <h3 class="card-title">21.&#160&#160  Если положительные числа <i>x</i>, 32, <i>y</i>, <i>z</i>, 4, в указанном порядке образуют геометрическую прогрессию, то <i>z</i> = </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  1&frasl;8
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  1&frasl;2
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  2
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  8
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link"> 
+                    <h3 class="card-title">22.&#160&#160  (2(2&frasl;3) - 2,6) &frasl; (1,3 - 1(1&frasl;3)) = </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  -2
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  -1&frasl;2
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  1&frasl;2
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  2
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link"> 
+                    <h3 class="card-title">23.&#160&#160  Если 2<sup><i>x</i></sup> ⋅ 4<sup><i>y</i></sup> = 32 и 3<sup><i>x</i></sup> &frasl; 9<sup><i>y</i></sup> = 3, то <i>y</i> =  </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  1
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  2
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  3
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  6
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link"> 
+                    <h3 class="card-title">24.&#160&#160  <i>x + y + z</i> = 300, &#160 <i>x + y + 3z = </i>400,&#160 то <i>x + y</i> =   </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  100
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  150
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  200
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  250
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link"> 
+                    <img class="card-img" th:src="@{/img/math_rus/q25(1).jpg}" alt="Тест">
+                    <h3 class="card-title">25.&#160&#160  На рисунке, приведённом выше, <i>A, B, C - </i>центры окружностей,
+                        <i>D, E, F - </i>точки касания окружностей.
+                        <br>Если <i>AD</i> = 8, <i>BE</i> = 3 и <i>CF</i> = 1, то периметр треугольника <i>ABC</i> равен 
+                    </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  10
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  12
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  14
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  16
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link"> 
+                    <h3 class="card-title">26.&#160&#160  Если функция определена как </br><i>f</i>(<i>x</i>) = lg(<i>x</i> - 1) - lg(4 - <i>x</i>), 
+                    то какое из приведённых ниже чисел входит в область определения функции <i>f</i>(<i>x</i>)?  </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  3
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  4
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  5
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  6
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link"> 
+                    <h3 class="card-title">Изменение функции можно вычислить по формуле Δ<i>f</i>(<i>x<sub>o</sub></i>) = <i>f <sup>'</sup></i>(<i>x<sub>o</sub></i>)⋅Δ<i>x</i> .
+                         </br></br>27.&#160&#160  Если первоначальная длина ребра куба равна 2 м и при нагревании каждое ребро этого куба увеличивается на 0,02 м, то чему равен 
+                        объём этого куба после нагревания?   </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  8,25 м<sup>3</sup>
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  8,24 м<sup>3</sup>
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  8,23 м<sup>3</sup>
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  8,22 м<sup>3</sup>
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link"> 
+                    <h3 class="card-title">28.&#160&#160  Чему равно наименьшее целое решение неравенства log<sub>3</sub>(1&frasl;3) &frasl; (<i>x</i> + 3) < 0? </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  2
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  1
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  -1
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  -2
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link"> 
+                    <h3 class="card-title">29.&#160&#160  Сосуд в форме куба с ребром 4 метра целиком заполнен водой.
+                        <br>Если всю эту воду перелить в сосуд в форме куба с ребром 8 метров, то высота воды (в метрах) в этом сосуде равна </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  4
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  2
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  1
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  0,5
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link"> 
+                    <img class="card-img" th:src="@{/img/math_rus/q30.jpg}" alt="Тест">
+                    <h3 class="card-title">30.&#160&#160  Если в таблицах, приведённых выше, заданы значения функций <i>f</i>(<i>x</i>) и <i>g</i>(<i>x</i>),
+                     то <i>f</i>(<i>g</i>(1) = </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  2
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  3
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  4
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  5
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link"> 
+                    <h3 class="card-title">31.&#160&#160  Если <i>f</i>(<i>x</i>) = (5 - 4<i>x</i>)<sup>9</sup>, то <i>f <sup>'</sup></i>(<i>x</i>) = </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  -9(5 - 4<i>x</i>)<sup>8</sup>
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  -36(5 - 4<i>x</i>)<sup>8</sup>
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  36(4<i>x</i> - 5)<sup>8</sup>
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  9(4<i>x</i> - 5)<sup>8</sup>
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link"> 
+                    <img class="card-img" th:src="@{/img/math_rus/q32.jpg}" alt="Тест">
+                    <h3 class="card-title">32.&#160&#160  Если на рисунке, приведённом выше, <i>AO = </i>√2, то OE =  </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  1
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  √2 &frasl; 2
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  1&frasl;2
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  √2 &frasl; 4
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link"> 
+                    <h3 class="card-title">33.&#160&#160  Если (4<i>b + a</i>) &frasl; (5<i>a</i> - 7<i>b</i>) = 2, то (4<i>a + b</i>) &frasl; (7<i>a</i> - 5<i>b</i>) = </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  -1
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  1&frasl;2
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  1
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  2
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link"> 
+                    <h3 class="card-title">34.&#160&#160  Если <i>x</i> = (√3 + 1)&frasl;2, то 4<i>x<sup>2</sup> - </i>4<i>x</i> + 5 = </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  7
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  4 + 2√3
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  5 + 2√3
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  9
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link"> 
+                    <img class="card-img" th:src="@{/img/math_rus/q35.jpg}" alt="Тест">
+                    <h3 class="card-title">35.&#160&#160  Если в параллелограмме <i>MNPQ</i> на рисунке, приведённом выше, <br><span class="arrows"><i>MN</i></span> = <span class="arrow"><i>x</i></span>,
+                        <span class="arrows"><i>MQ</i></span> = <span class="arrow"><i>y</i></span>, &#160то <span class="arrows"><i>MP</i></span>&#160 + <span class="arrows"><i>NQ</i></span> = </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  -2<span class="arrow"><i>y</i></span>
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  -2<span class="arrow"><i>x</i></span>
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  2<span class="arrow"><i>x</i></span>
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  2<span class="arrow"><i>y</i></span>
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link"> 
+                    <h3 class="card-title">36.&#160&#160  Какое  из нижеприведённых уравнений НЕ ИМЕЕТ решений? </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  sin<i>x</i> = -0,35
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  sin<i>x</i> = 0,35
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  sin<i>x</i> = 3&frasl;5
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  sin<i>x</i> = 5&frasl;3
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    
+                    <h3 class="card-title">37.&#160&#160  Если функция определена как <i>f</i>(<i>x</i>) = 4 + ||<i>x</i>| - 1|, то что из нижеприведённого верно?
+                        </br> &#160 &#160 &#160 I. &#160 &#160 График функции <i>f</i>(<i>x</i>) пересекает ось О<i>y</i> в точке (0;3)
+                        </br> &#160 &#160 &#160 II. &#160 &#160График функции <i>f</i>(<i>x</i>) не пересекает ось О<i>x</i>
+                        </br> &#160 &#160 &#160 III. &#160 &#160График функции <i>f</i>(<i>x</i>) симметричен относительно оси О<i>y</i> </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  I, II и III 
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  II и III только
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  I и III только
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  I и II только    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card--> 
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <img class="card-img" th:src="@{/img/math_rus/q38.jpg}" alt="Тест">
+                    <h3 class="card-title">38.&#160&#160  Деревянный куб с ребром длиной 3, окрашенный со всех сторон, распилили на кубики с ребром
+                         длиной 1, как показано на вышеприведённом рисунке. Сколько всего получилось кубиков, у которых окрашены только три грани? </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  4
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  6
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  8
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  10    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card--> 
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link">
+                    <img class="card-img" th:src="@{/img/math_rus/q39.jpg}" alt="Тест">
+                    <h3 class="card-title">39.&#160&#160  Если на рисунке, приведённом выше, изображён график зависимости 
+                        <br><i>y + x</i> от <i>y - x</i>, то <i>y</i>&frasl;<i>x</i> = </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  3
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  2
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  1&frasl;2
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  1&frasl;3    
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card--> 
+
+            <!--Card-->
+            <div class="card">
+                <div class="card-link"> 
+                    <h3 class="card-title">Символом [x] обозначают целую часть числа <i>x</i>, т.е. наибольшее целое число, которое не больше числа <i>x</i>.
+                         </br></br>40.&#160&#160  Если <i>n</i> - натуральное число и [<i>√n</i>] = 8, то наибольшее значение <i>n</i> равно  </h3>
+                            <form name="m1" action="" method="post">
+                        
+                                <br><input type="radio" name="rb1" value="0"> (A) &#160  64
+                                <br><input type="radio" name="rb1" value="1"> (Б) &#160  65
+                                <br><input type="radio" name="rb1" value="0"> (В) &#160  80
+                                <br><input type="radio" name="rb1" value="0"> (Г) &#160  81
+                            </form>  
+                </div>     
+            </div>
+            <!--// Card-->
+      
+            <a th:href="@{#header}" class="test-btn-next"> Закончить тест </a>
+        </div>
+    </div>
+
+    <footer th:include="footer"></footer>
+    <script th:src="@{/js/timer.js}"></script>
+
+</body>
+</html>

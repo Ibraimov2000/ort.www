@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пробное онлайн тестирование!</title>
+    <link rel="shortcut icon"  th:href="@{/img/icons/favicon1.png}" type="image/png">
+    <link rel="stylesheet" type="text/css"  th:href="@{/css/main.css}">
+    <link rel="stylesheet" type="text/css"  th:href="@{/css/media.css}">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="header-in">
+            <div class="logo">
+                <div id="logo">
+                </div>
+                <div id="companyName">Ort.kg</div>
+            </div>
+            <div class="menu">
+                <nav>
+                    <a href="#">ГЛАВНАЯ</a>
+                    <a href="#">ОБ АВТОРЕ</a>
+                    <a href="#">РАБОТЫ</a>
+                    <a href="#">ПРОЦЕСС</a>
+                    <a href="#">КОНТАКТЫ</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+        <div class="banner" id="banner">
+            <h1 class="banner-title">БЕСПЛАТНЫЕ ПРОБНЫЕ ТЕСТЫ</h1>
+            <p class="banner-subtitle">начните онлайн тестирование прямо сейчас!</p>
+            <a href="#tests" class="banner-arrow">
+                <img th:src="@{/img/header/chevron-down.svg}" alt="Arrow">
+            </a>
+            <a href="#tests" class="banner-arrow two">
+                <img th:src="@{/img/header/chevron-down.svg}" alt="Arrow">
+            </a>
+        </div>
+        <main>
+            <section class="tests" id="tests">
+                <div class="container">
+                    <h2 class = "tests-header"> Т Е С Т Ы</h2>
+                    <h3 class = "main_tests-header"> ОСНОВНЫЕ ТЕСТЫ</h3>
+                    <!--Portfolio-cards-wrapper-->
+                    <div class="tests-cards-wrapper">
+               
+                    <!--Card-->
+                    <div class="card">
+                        <a th:href="@{/main_tests/option_1_rus/introduction}" class="card-link">
+                            <img class="card-img" th:src="@{/img/portfolio/test.jpg}" alt="Тест">
+                            <h3 class="card-title">ОСНОВНОЙ ТЕСТ </br>вариант 1</h3>
+                            <p>Общереспубликанское тестирование.</p>
+                        </a>
+                    </div>
+                    <!--// Card-->
+
+                    <!--Card-->
+                    <div class="card">
+                        <a th:href="@{/main_tests/option_1_kyr/introduction}" class="card-link">
+                            <img class="card-img" th:src="@{/img/portfolio/test.jpg}" alt="Тест">
+                            <h3 class="card-title">НЕГИЗГИ ТЕСТ </br>вариант 1</h3>
+                            <p>Жалпы республикалык тестирлөө.</p>
+                        </a>
+                    </div>
+                    <!--// Card-->
+
+                    <!--Card-->
+                    <div class="card">
+                        <a th:href="@{/main_tests/option_2_rus/introduction}" class="card-link">
+                            <img class="card-img" th:src="@{/img/portfolio/test.jpg}" alt="Тест">
+                            <h3 class="card-title">ОСНОВНОЙ ТЕСТ </br>вариант 2</h3>
+                            <p>Общереспубликанское онлайн тестирование.</p>
+                        </a>
+                    </div>
+                    <!--// Card-->
+
+                    <!--Card-->
+                    <div class="card">
+                        <a th:href="@{forest-travel.html}" class="card-link">
+                            <img class="card-img" th:src="@{/img/portfolio/test.jpg}" alt="Тест">
+                            <h3 class="card-title">Тест №4</h3>
+                            <p>Общереспубликанское онлайн тестирование.</p>
+                        </a>
+                    </div>
+                    <!--// Card-->
+                </div>
+                <!--// Portfolio-cards-wrapper-->
+                <h3 class = "main_tests-header_1"> ПРЕДМЕТНЫЕ ТЕСТЫ</h3>
+                <!--Portfolio-cards-wrapper-->
+                <div class="tests-cards-wrapper">
+                                        <!--Card-->
+                                        <div class="card">
+                                            <a th:href="@{/subject_tests/english/english_rus}" class="card-link">
+                                                <img class="card-img" th:src="@{/img/portfolio/test.jpg}" alt="Тест">
+                                                <h3 class="card-title">Английский язык</br>вариант 1</h3>
+                                                <p>Общереспубликанское тестирование.</p>
+                                            </a>
+                                        </div>
+                                        <!--// Card-->
+                    
+                                        <!--Card-->
+                                        <div class="card">
+                                            <a th:href="@{/subject_tests/english/english_kyr}" class="card-link">
+                                                <img th:src="@{/img/portfolio/test.jpg}" alt="Тест">
+                                                <h3 class="card-title">Англис тили</br>вариант 1</h3>
+                                                <p>Жалпы республикалык тестирлөө.</p>
+                                            </a>
+                                        </div>
+                                        <!--// Card-->
+
+                                        <!--Card-->
+                                        <div class="card">
+                                            <a th:href="@{/subject_tests/math/math_rus}" class="card-link">
+                                                <img th:src="@{/img/portfolio/test.jpg}" alt="Тест">
+                                                <h3 class="card-title">Математика</br>вариант 1</h3>
+                                                <p>Общереспубликанское тестирование.</p>
+                                            </a>
+                                        </div>
+                                        <!--// Card-->
+
+
+                </div>
+                <!--// Portfolio-cards-wrapper-->
+
+                </div>
+            </section>
+            
+        </main>
+
+        <footer th:include="/fragments/footer"></footer>
+
+        <!-- Библиотеки и плагины -->
+            <script th:src="@{/libs/jquery/jquery-3.5.1.min.js}"></script>
+            <script th:src="@{/libs/Vide-master/src/jquery.vide.js}"></script>
+        
+        <!-- Собственные скрипты и вызовы библиотек-->
+            <script th:src="@{/js/main.js}"></script>
+        
+</body>
+</html>

@@ -1,0 +1,212 @@
+<head th:include="head"></head>
+
+    <div class="main-test-header-container" id="header">
+        <div class="main-test-header"> 
+            <h1>Математика</h1>
+            <h2 id="chast">Часть I</h2>
+            <h3 id="timer"> </h3>
+        </div>   
+    </div>    
+
+    
+
+    <div class="container" id="questions">
+
+           
+            <input type="checkbox" id="raz" class="del"/>
+            <label for="raz" class="del">Показать инструкцию</label>
+        
+
+            <div>
+                <h2>Инструкция</h2>
+                    Вопросы с 1 по 30 содержат две величины, каждая из которых заключена в прямоугольную рамку:
+                    </br>одна - в <strong>КОЛОНКЕ А</strong>, другая - в <strong>КОЛОНКЕ Б</strong>. Вам нужно сравнить эти две величины и выбрать ответ:
+                    </br> &#160 &#160 &#160 &#160 &#160 &#160 (А), если величина <strong>КОЛОНКЕ А</strong> больше;
+                    </br> &#160 &#160 &#160 &#160 &#160 &#160 (Б), если величина <strong>КОЛОНКЕ Б</strong> больше;
+                    </br> &#160 &#160 &#160 &#160 &#160 &#160 (В), если обе величины равны;
+                    </br> &#160 &#160 &#160 &#160 &#160 &#160 (Г), если по имеющейся информации невозможно определить, какая из этих величин больше,
+                    </br> &#160 &#160 &#160 &#160 &#160 &#160  &#160 &#160 &#160  &#160либо установить их равенство;
+                    <hr>
+                    В некоторых вопросах дается дополнительная информация о сравниваемых величинах. Она располагается
+                    над сравниваемыми величинами и НЕ ЗАКЛЮЧЕНА в рамки. Символ, присутствующий в обеих колонках задания,
+                    имеет одинаковое значение для величин в <strong>КОЛОНКЕ А</strong> и в <strong>КОЛОНКЕ Б</strong>.
+                    </br>
+                    </br>
+            <!-- <img class="instruction" src="../../img/questions/instruction.jpg" alt="instruction"> -->
+            </div>
+
+            <?php 
+                $math_q = [
+                    [
+                        'id' => 1,
+                        'img' => '../../img/questions/q1.jpg', 
+                    ],
+                    [
+                        'id' => 2,
+                        'img' => '../../img/questions/q2.jpg', 
+                    ],
+                    [
+                        'id' => 3,
+                        'img' => '../../img/questions/q3.jpg', 
+                    ],
+                    [
+                        'id' => 4,
+                        'img' => '../../img/questions/q4.jpg', 
+                    ],
+                    [
+                        'id' => 5,
+                        'img' => '../../img/questions/q5.jpg', 
+                    ],
+                    [
+                        'id' => 6,
+                        'img' => '../../img/questions/q6.jpg', 
+                    ],
+                    [
+                        'id' => 7,
+                        'img' => '../../img/questions/q7.jpg', 
+                    ],
+                    [
+                        'id' => 8,
+                        'img' => '../../img/questions/q8.jpg', 
+                    ],
+                    [
+                        'id' => 9,
+                        'img' => '../../img/questions/q9.jpg', 
+                    ],
+                    [
+                        'id' => 10,
+                        'img' => '../../img/questions/q10.jpg', 
+                    ],
+                    [
+                        'id' => 11,
+                        'img' => '../../img/questions/q11.jpg', 
+                    ],
+                    [
+                        'id' => 12,
+                        'img' => '../../img/questions/q12.jpg', 
+                    ],
+                    [
+                        'id' => 13,
+                        'img' => '../../img/questions/q13.jpg', 
+                    ],
+                    [
+                        'id' => 14,
+                        'img' => '../../img/questions/q14.jpg', 
+                    ],
+                    [
+                        'id' => 15,
+                        'img' => '../../img/questions/q15.jpg', 
+                    ],
+                    [
+                        'id' => 16,
+                        'img' => '../../img/questions/q16.jpg', 
+                    ],
+                    [
+                        'id' => 17,
+                        'img' => '../../img/questions/q17.jpg', 
+                    ],
+                    [
+                        'id' => 18,
+                        'img' => '../../img/questions/q18.jpg', 
+                    ],
+                    [
+                        'id' => 19,
+                        'img' => '../../img/questions/q19.jpg', 
+                    ],
+                    [
+                        'id' => 20,
+                        'img' => '../../img/questions/q20.jpg', 
+                    ],
+                    [
+                        'id' => 21,
+                        'img' => '../../img/questions/q21.jpg', 
+                    ],
+                    [
+                        'id' => 22,
+                        'img' => '../../img/questions/q22.jpg', 
+                    ],
+                    [
+                        'id' => 23,
+                        'img' => '../../img/questions/q23.jpg', 
+                    ],
+                    [
+                        'id' => 24,
+                        'img' => '../../img/questions/q24.jpg', 
+                    ],
+                    [
+                        'id' => 25,
+                        'img' => '../../img/questions/q25.jpg', 
+                    ],
+                    [
+                        'id' => 26,
+                        'img' => '../../img/questions/q26.jpg', 
+                    ],
+                    [
+                        'id' => 27,
+                        'img' => '../../img/questions/q27.jpg', 
+                    ],
+                    [
+                        'id' => 28,
+                        'img' => '../../img/questions/q28.jpg', 
+                    ],
+                    [
+                        'id' => 29,
+                        'img' => '../../img/questions/q29.jpg', 
+                    ],
+                    [
+                        'id' => 30,
+                        'img' => '../../img/questions/q30.jpg', 
+                    ]
+                    ];
+
+                $id = $_GET['id'];
+                $q = [];
+                foreach ($math_q as $question){
+                    if ($question['id'] == $id){
+                        $q = $question;
+                        break;
+                    }
+                }
+            ?>
+
+    <div class="tests-cards-wrapper">
+        <?php foreach ($math_q as $q):?>
+        <!--Card-->
+        <div class="card">
+            <div class="card-link">
+                <img class="card-img" src="<?php echo $q['img'];?>">
+                
+                <h3 class="card-title"><?php echo $q['id']; ?>.</h3>
+                        <form name="m1" action="" method="post">
+                      
+                            <br><input type="radio" name="rb1" value="0"> A
+                            <br><input type="radio" name="rb1" value="1"> Б
+                            <br><input type="radio" name="rb1" value="0"> В
+                            <br><input type="radio" name="rb1" value="0"> Г    
+                        </form>  
+            </div>     
+        </div>
+        <!--// Card-->
+        <?php endforeach; ?>
+      
+        <a th:href="@{/main_tests/option_2_rus/math2}" class="test-btn-next"> Следующий </a>
+    </div>
+            <form name="m5">
+                <input type="hidden" name="l1" value="0">
+                <input type="hidden" name="l2" value="4">
+                <input type="hidden" name="l3" value="7">
+                <input type="hidden" name="l4" value="10">
+            </form>
+
+            <form action="" name="H" method="post">
+                <input type="hidden" name="tDtxt1" value="Ваша оценка 2">
+                <input type="hidden" name="tDtxt2" value="Ваша оценка 3">
+                <input type="hidden" name="tDtxt3" value="Ваша оценка 4">
+                <input type="hidden" name="tDtxt4" value="Ваша оценка 5">
+            </form>
+
+            
+        </div>
+
+
+        <footer th:include="footer"></footer>
